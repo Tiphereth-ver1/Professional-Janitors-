@@ -21,9 +21,8 @@ function animate() {
   
   // Any transformations or updates will happen here
   import data from './location_data.ts'
-  object.position.set(location);
-  object.rotation.set(rotation);
-  // Rotate 45 degrees around X axis
+  object.position.set(data.location[0], data.location[1], data.location[2]);
+  object.rotation.set(data.rotation[1],data.rotation[0], data.rotation[2]);
 
   renderer.render(scene, camera);  // Render the scene
 }
