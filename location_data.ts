@@ -15,8 +15,5 @@ function extractData(message: string) {
 }
 
 // Extract data
-const extractedData = extractData(message);
-export extractedData
-
-// Output results
-console.log(extractedData);
+const data = extractData(message);
+export data
