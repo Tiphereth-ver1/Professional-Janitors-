@@ -20,7 +20,7 @@ function animate() {
   requestAnimationFrame(animate);  // Continuously call this function
   
   // Any transformations or updates will happen here
-  import extractedData from './location_data.ts'
+  import data from './location_data.ts'
   object.position.set(location);
   object.rotation.set(rotation);
   // Rotate 45 degrees around X axis
