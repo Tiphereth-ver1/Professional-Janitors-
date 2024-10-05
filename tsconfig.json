@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es6",              // or later, e.g., "es2017", "es2020"
+      "lib": [
+        "es6",                      // Include ECMAScript 6 features
+        "dom"                       // Include DOM types
+      ],
+      "module": "commonjs",        // or "esnext" depending on your needs
+      "strict": true,              // Enable all strict type checking options
+      "esModuleInterop": true,     // Enables emit interoperability between CommonJS and ES Modules
+      "skipLibCheck": true         // Skip type checking of declaration files
+    }
+  }
+  
