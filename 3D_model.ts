@@ -9,7 +9,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
 const loader = new STLLoader();
-loader.load('model_name.stl', (object) => {
+loader.load('Beacon RevE V5 (de-featured).stl', (object) => {
   scene.add(object);
 });
 
