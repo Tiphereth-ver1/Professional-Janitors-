@@ -1,3 +1,5 @@
+// There will be something to import messages.
+
 function extractData(message: string) {
     const messageId = message.match(/Message\s*(\d+)/)?.[1];
     const location = message.match(/L\[(.*?)\]/)?.[1];
@@ -11,3 +13,9 @@ function extractData(message: string) {
         gravity: gyroscopic_acceleration?.split(',').map(Number)
     };
 }
+
+// Extract data
+const extractedData = extractData(message);
+
+// Output results
+console.log(extractedData);
