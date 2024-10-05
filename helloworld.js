@@ -8,6 +8,8 @@ function extractData(message: string) {
         messageId,
         location: location?.split(',').map(Number),
         rotation: rotation?.split(',').map(Number),
-        gravity: gyroscopic_acceleration?.split(',').map(Number)
+        gyroscopic_acceleration: gyroscopic_acceleration?.split(',').map(Number)
     };
 }
+
+const data = extractData(message);
