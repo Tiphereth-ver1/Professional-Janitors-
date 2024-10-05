@@ -41,9 +41,3 @@ export function initialize3DModel(canvas: HTMLCanvasElement) {
         animate();
     });
 }
-
-
-        renderer.render(scene, camera);  // Render the scene
-    }
-    animate();
-});
