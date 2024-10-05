@@ -17,11 +17,13 @@ export function extractData(message: string) {
     };
 }
 
+
 // Function to refresh the data
 export function refreshData() {
     // Here you can modify the `message` variable as needed
     // We want for new data, new message to be assigned here.
-    return extractData(message);
+    const data = extractData(message);
+    export data
 }
 
 
