@@ -20,7 +20,7 @@ export function extractData(message: string) {
 // Function to refresh the data
 export function refreshData() {
     // Here you can modify the `message` variable as needed
-    // For demonstration, we'll just return the extracted data from the existing message
+    // We want for new data, new message to be assigned here.
     return extractData(message);
 }
 
